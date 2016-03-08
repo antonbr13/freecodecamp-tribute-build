@@ -1,0 +1,84 @@
+body {
+   box-sizing: border-box;
+}
+
+*, *:before, *:after {
+   box-sizing: inherit;
+}
+
+
+
+.container {
+   width: 95%;
+   margin: 5% auto;
+   background: #eeeeee;
+   text-align: center;
+   border-radius: 6px;
+   padding: 3% 4%;
+}
+
+.picture-box {
+   background: white;
+   border: 1px solid #cfcccc;
+   border-radius: 2px;
+   margin: 3% auto;
+
+}
+
+img {
+   width: 90%;
+   border-radius: 5px;
+   margin: 5% auto 0;
+
+}
+.caption {
+   width: 80%;
+   margin: 2% auto;
+
+}
+.facts {
+   text-align: left;
+   width: 90%;
+   margin: 8% auto;
+}
+
+.facts ul {
+   -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-start: 3%;
+
+}
+
+.facts h5 {
+   text-align: center;
+}
+
+.quote {
+font-weight: lighter;
+font-size: .85em;
+ text-align: right;
+
+}
+
+.link {
+   font-size: 1.2em;
+   font-weight: bold;
+   width:60%;
+   margin: 0 auto;
+}
+
+.link a {
+   color: #337ab7;
+}
+
+hr {
+   width: 75%;
+   margin: 0 auto;
+}
+
+.footer {
+   text-align: center;
+   font-size: .85em;
+}
